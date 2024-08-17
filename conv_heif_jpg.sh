@@ -73,6 +73,7 @@ then
     echo "Quality only valid for jpg output. It will be ignored"
 fi
 
+#TODO Need to check that the overwriting of quality here is ok
 quality=100
 
 
