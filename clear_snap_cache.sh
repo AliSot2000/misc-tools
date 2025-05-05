@@ -1,6 +1,5 @@
 #!/bin/bash
-sudo -i
-echo "Clearing Snap Cache"
-rm /var/lib/snapd/cache/*
-
+sudo echo "Clearing Snap Cache"
+sudo rm /var/lib/snapd/cache/*
+exit
 
